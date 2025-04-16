@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title> | Power</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"><img src="assets/logo.png" alt="logo" />Power</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Accueil</a></li>
+          <li class="link"><a href="#about">À Propos</a></li>
+          <li class="link"><a href="#class">Cours</a></li>
+          <li class="link"><a href="#trainer">Entraîneurs</a></li>
+          <li class="link"><a href="#price">Tarifs</a></li>
+          <li class="link"><button class="btn">Contactez-nous</button></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Construisez Votre Corps &</h4>
+          <h1 class="section__header">Sculptez-vous !</h1>
+          <p>
+            Libérez votre potentiel et embarquez pour un voyage vers un vous plus fort,
+            plus en forme et plus confiant. Inscrivez-vous à "Sculptez Votre Corps"
+            maintenant et constatez l'incroyable transformation dont votre corps est capable !
+          </p>
+          <div class="header__btn">
+            <button class="btn">Rejoignez-nous aujourd'hui</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img class="about__bg" src="assets/dot-bg.png" alt="bg" />
+        <img src="assets/about.png" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Notre Histoire</h2>
+        <p class="section__description">
+          Dirigée par notre équipe d'instructeurs experts et motivants, "Les Cours Que Vous
+          Obtiendrez Ici" est une séance à haute énergie, axée sur les résultats, qui combine
+          un mélange parfait de cardio, de musculation et d'exercices fonctionnels.
+        </p>
+        <div class="about__grid">
+          <div class="about__card">
+            <span><i class="ri-open-arm-line"></i></span>
+            <div>
+              <h4>Politique Portes Ouvertes</h4>
+              <p>
+                Nous croyons en un accès sans restriction pour tous les individus,
+                quels que soient leur niveau de forme physique, leur âge ou leur origine.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-shield-cross-line"></i></span>
+            <div>
+              <h4>Entièrement Assuré</h4>
+              <p>
+                Votre tranquillité d'esprit est notre priorité absolue, et notre engagement envers
+                votre sécurité s'étend à tous les aspects de votre parcours fitness.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-p2p-line"></i></span>
+            <div>
+              <h4>Coach Personnel</h4>
+              <p>
+                Avec des plans d'entraînement personnalisés adaptés à vos besoins, nous
+                veillerons à ce que vous tiriez le meilleur parti de votre expérience en salle.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container class__container" id="class">
+      <h2 class="section__header">Nos Cours</h2>
+      <p class="section__description">
+        Découvrez une gamme diversifiée de cours exaltants dans notre salle de sport, conçus
+        pour répondre à tous les niveaux de forme physique et à tous les intérêts. Que vous soyez
+        un athlète chevronné ou que vous commenciez tout juste votre parcours de fitness, nos cours
+        offrent quelque chose pour tout le monde.
+      </p>
+      <div class="class__grid">
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-1.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Musculation</h4>
+            <p>Entraînement de Résistance</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-2.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Flexibilité & Mobilité</h4>
+            <p>Yoga & Pilates</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-3.jpg" alt="class" />
+          <div class="class__content">
+            <h4>HIIT</h4>
+            <p>Circuit Training</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-4.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Fitness en Groupe</h4>
+            <p>Zumba ou Danse</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container trainer__container" id="trainer">
+      <h2 class="section__header">Nos Entraîneurs</h2>
+      <p class="section__description">
+        Nos entraîneurs sont plus que des experts en exercice ; ils sont passionnés par l'aide
+        qu'ils vous apportent pour atteindre vos objectifs de santé et de forme physique. Nos
+        entraîneurs sont équipés pour adapter les programmes d'entraînement à vos besoins uniques.
+      </p>
+      <div class="trainer__grid">
+        <div class="trainer__card">
+          <img src="assets/trainer-1.jpg" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>James Rodriguez</h4>
+            <h5>Force et Conditionnement</h5>
+            <hr />
+            <p>
+              Avec une formation en sports de compétition, il se consacre à vous aider
+              à atteindre votre performance physique maximale.
+            </p>
+            <div class="trainer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-google-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="trainer__card">
+          <img src="assets/trainer-2.jpg" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Mark Harris</h4>
+            <h5>HIIT et Fonctionnel</h5>
+            <hr />
+            <p>
+              Ses entraînements énergiques et dynamiques sont conçus pour repousser vos
+              limites, stimuler le métabolisme et brûler des calories.
+            </p>
+            <div class="trainer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-google-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="trainer__card">
+          <img src="assets/trainer-3.jpg" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Emily Davis</h4>
+            <h5>Yoga et Pleine Conscience</h5>
+            <hr />
+            <p>
+              Les séances d'Emily concernent non seulement les postures physiques, mais aussi
+              la culture de la paix intérieure et de la pleine conscience.
+            </p>
+            <div class="trainer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-google-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container price__container" id="price">
+      <h2 class="section__header">Nos Tarifs</h2>
+      <p class="section__description">
+        Notre plan tarifaire comprend différents niveaux d'abonnement, chacun adapté
+        à différentes préférences et aspirations fitness.
+      </p>
+      <div class="price__grid">
+        <div class="price__card">
+          <div class="price__content">
+            <h4>Formule Basique</h4>
+            <img src="assets/price-1.png" alt="price" />
+            <p>
+              Notre Formule Basique est le point de départ idéal pour les personnes
+              qui cherchent à démarrer leur parcours de fitness ou à maintenir un mode de vie actif.
+            </p>
+            <hr />
+            <h4>Caractéristiques Principales</h4>
+            <p>Plan d'entraînement intelligent</p>
+            <p>Entraînements à domicile</p>
+          </div>
+          <button class="btn">Rejoindre Maintenant</button>
+        </div>
+        <div class="price__card">
+          <div class="price__content">
+            <h4>Formule Hebdomadaire</h4>
+            <img src="assets/price-2.png" alt="price" />
+            <p>
+              Notre formule hebdomadaire est conçue pour apporter structure et variété
+              à vos entraînements, garantissant que vous restez motivé et sur la bonne voie.
+            </p>
+            <hr />
+            <h4>Caractéristiques Principales</h4>
+            <p>Salles PRO</p>
+            <p>Plan d'entraînement intelligent</p>
+            <p>Entraînements à domicile</p>
+          </div>
+          <button class="btn">Rejoindre Maintenant</button>
+        </div>
+        <div class="price__card">
+          <div class="price__content">
+            <h4>Formule Mensuelle</h4>
+            <img src="assets/price-3.png" alt="price" />
+            <p>
+              Avec cet abonnement flexible, vous aurez accès à nos installations de gym
+              de pointe, à des entraîneurs experts et à une communauté fitness dynamique.
+            </p>
+            <hr />
+            <h4>Caractéristiques Principales</h4>
+            <p>Salles & Cours ELITE</p>
+            <p>Salles PRO</p>
+            <p>Plan d'entraînement intelligent</p>
+            <p>Entraînements à domicile</p>
+            <p>Coaching Personnel</p>
+          </div>
+          <button class="btn">Rejoindre Maintenant</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">Ce Que Les Gens Disent De Nous ?</h2>
+      <p class="section__description">
+        Ces témoignages servent de preuve à notre engagement à aider les individus
+        à atteindre leurs objectifs de fitness, et à créer un environnement favorable
+        pour tous ceux qui franchissent nos portes.
+      </p>
+      <!-- Conteneur principal du slider -->
+      <div class="swiper">
+        <!-- Wrapper supplémentaire requis -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-1.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>
+                Les entraîneurs ici ont personnalisé un plan qui équilibrait mes exigences
+                professionnelles et personnelles, et j'ai constaté des progrès remarquables
+                dans mon parcours fitness. Ce n'est pas seulement une salle de sport, c'est
+                mon sanctuaire pour prendre soin de moi.
+              </p>
+              <h4>Jane Smith</h4>
+              <h5>Responsable Marketing</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-2.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+              </div>
+              <p>
+                L'expertise des entraîneurs et l'engagement de la salle en matière de
+                propreté pendant cette période en ont fait un havre de paix où je peux
+                maintenir ma santé et déstresser.
+              </p>
+              <h4>Emily Carter</h4>
+              <h5>Infirmière Diplômée</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-3.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>
+                La variété des cours et la communauté solidaire m'ont motivé. J'ai perdu
+                des kilos, gagné en confiance et trouvé un nouveau niveau d'énergie pour
+                inspirer mes élèves.
+              </p>
+              <h4>John Davis</h4>
+              <h5>Enseignant</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-4.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                L'accès 24h/24 à cette salle de sport a été une bouée de sauvetage. Que ce
+                soit pour une séance nocturne ou matinale, la commodité ici est imbattable.
+              </p>
+              <h4>David Martinez</h4>
+              <h5>Entrepreneur</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#"><img src= /></a>
+          </div>
+          <p>
+           
+          </p>
+          
+        </div>
+        <div class="footer__col">
+        
+        </div>
+        
+        </div>
+        
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 and Powered by Elyse & Nambinina. Tous droits réservés.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
